@@ -1,0 +1,16 @@
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langchain_huggingface
+python-dotenv
+fastapi
+uvicorn
+pydantic
+requests
+transformers
+torch
+torchvision
+torchaudio
+sentence_transformers
+langchain_openai 
