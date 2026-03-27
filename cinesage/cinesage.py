@@ -60,4 +60,6 @@ final_prompt = prompt_template.invoke(
     {"paragraph" : para}
 )
 
+response = chat_model.invoke(final_prompt)
+print(response.content)
 
