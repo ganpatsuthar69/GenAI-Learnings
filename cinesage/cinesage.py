@@ -54,3 +54,10 @@ Extract information from this paragraph:
     )
 ])
   
+para = input("Give Your Paragraph about Movie: ")
+
+final_prompt = prompt_template.invoke(
+    {"paragraph" : para}
+)
+
+
